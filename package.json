@@ -1,0 +1,20 @@
+{
+    "name": "reaction-test",
+    "version": "1.0.0",
+    "description": "Reaction Test Game",
+    "main": "index.js",
+    "scripts": {
+
+    },
+    "keywords": [
+    "reaction",
+    "test",
+    "reaction",
+    "test",
+    "game",
+    "click",
+    "fast"
+  ],
+    "author": "Eric Nunn",
+    "license": "MIT"
+}
