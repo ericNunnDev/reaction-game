@@ -3,7 +3,10 @@
     "version": "1.0.0",
     "description": "Reaction Test Game",
     "main": "index.js",
-    "scripts": {},
+    "homepage": "https://lowlyhero.github.io/reaction-game/",
+    "scripts": {
+        "deploy": "gh-pages -d src"
+    },
     "keywords": [
         "reaction",
         "test",
