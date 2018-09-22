@@ -3,18 +3,19 @@
     "version": "1.0.0",
     "description": "Reaction Test Game",
     "main": "index.js",
-    "scripts": {
-
-    },
+    "scripts": {},
     "keywords": [
-    "reaction",
-    "test",
-    "reaction",
-    "test",
-    "game",
-    "click",
-    "fast"
-  ],
+        "reaction",
+        "test",
+        "reaction",
+        "test",
+        "game",
+        "click",
+        "fast"
+    ],
     "author": "Eric Nunn",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "gh-pages": "^2.0.0"
+    }
 }
