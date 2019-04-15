@@ -1,10 +1,10 @@
-var start = new Date().getTime();
+const start = new Date().getTime();
 
-function getRandomColor() {
+const getRandomColor = () => {
 
-    var letters = "0123456789ABCDEF".split("");
+    let letters = "0123456789ABCDEF".split("");
 
-    var color = "#";
+    let color = "#";
 
     for (i = 0; i < 6; i++) {
         color += letters[Math.floor(Math.random() * 16)];
@@ -14,11 +14,11 @@ function getRandomColor() {
 
 function showShape() {
 
-    var top = Math.random() * 400;
+    let top = Math.random() * 400;
 
-    var left = Math.random() * 400;
+    let left = Math.random() * 400;
 
-    var width = Math.random() * 200 + 100;
+    let width = Math.random() * 200 + 100;
 
     if (Math.random() > 0.5) {
         document.getElementById("shape").style.borderRadius = "50%";
@@ -43,12 +43,12 @@ function showShape() {
 
 setTimeout(showShape, Math.random() * 2000);
 
-document.getElementById("shape").onclick = function () {
+document.getElementById("shape").onclick = () => {
     document.getElementById("shape").style.display = "none";
 
-    var end = new Date().getTime();
+    const end = new Date().getTime();
 
-    var timeTaken = (end - start) / 1000;
+    const timeTaken = (end - start) / 1000;
     document.getElementById("timeTaken").innerHTML = timeTaken + "s";
 
     showShape();
